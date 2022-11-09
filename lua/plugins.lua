@@ -11,6 +11,7 @@ return require('packer').startup(function(use)
   }
   use {'dracula/vim', as = 'dracula'}
 use 'neovim/nvim-lspconfig'
+use 'kyazdani42/nvim-web-devicons'
 use 'hrsh7th/cmp-nvim-lsp'
 use 'hrsh7th/cmp-buffer'
 use 'hrsh7th/cmp-path'
